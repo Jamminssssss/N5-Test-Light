@@ -1,5 +1,29 @@
-<<<<<<< HEAD
 # N5-Test-Light
+
+<img src="https://github.com/user-attachments/assets/c03f5d98-1c93-4343-a8df-aca71931e976" width="200" /> 
+<img src="https://github.com/user-attachments/assets/5ba69758-e46d-412c-876e-1c08113a55fc" width="200" />
+<img src="https://github.com/user-attachments/assets/b6684799-a084-45cf-8577-6eb9279e3d51" width="200" />
+
+<br />
+
+<img src="https://github.com/user-attachments/assets/e6bb0481-b949-4faa-8e6e-27186eefab37" width="200" />
+<img src="https://github.com/user-attachments/assets/e6b4c3fc-bda4-4321-b717-1d6e0607373d" width="200" />
+<img src="https://github.com/user-attachments/assets/bf4e6d4f-8171-4a99-9dc2-2af7f2d3cb3a" width="200" />
+
+
+# App features and introduction
+
+This is an app that allows you to test the Korean Language Proficiency Test JLPT N5.
+
+Provides reading questions submitted to the exam.
+
+Provides listening questions to be submitted to the exam.
+
+If you touch an incorrect answer, you'll see a red view and a green view for the correct answer.
+
+
+
+
 N5 Test App
 =======
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
