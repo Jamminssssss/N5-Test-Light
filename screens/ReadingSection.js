@@ -3,8 +3,6 @@ import { View, Text, Button, TouchableOpacity, StyleSheet, ScrollView, Image, Mo
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import SQLite from 'react-native-sqlite-storage';
-import {GestureHandlerRootView, GestureDetector, Gesture } from 'react-native-gesture-handler';
-import Animated, {useSharedValue, useAnimatedStyle, withSpring } from 'react-native-reanimated';
 import questions from './data/questions';  // Import questions
 
 
@@ -16,7 +14,6 @@ export default function ReadingSection({ navigation }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showNextButton, setShowNextButton] = useState(false);
   const [db, setDb] = useState(null);  // State for database instance
-  const [isImageZoomed, setIsImageZoomed] = useState(false); // State for image zoom
 
 
  const currentQuestion = questions[currentQuestionIndex];
@@ -226,6 +223,7 @@ const styles = StyleSheet.create({
   question: {
     fontSize: 20,
     fontWeight: 'bold',
+    textAlign: 'center'
   },
   questionImage: {
     width: '100%',
