@@ -10,18 +10,15 @@
 <img src="https://github.com/user-attachments/assets/e6b4c3fc-bda4-4321-b717-1d6e0607373d" width="200" />
 <img src="https://github.com/user-attachments/assets/bf4e6d4f-8171-4a99-9dc2-2af7f2d3cb3a" width="200" />
 
-
 # App features and introduction
 
-This is an app that allows you to test the Korean Language Proficiency Test JLPT N5.
+This is an app that allows you to test the Japanese Language Proficiency Test JLPT N5.
 
 Provides reading questions submitted to the exam.
 
 Provides listening questions to be submitted to the exam.
 
 If you touch an incorrect answer, you'll see a red view and a green view for the correct answer.
-
-
 
 
 N5 Test App

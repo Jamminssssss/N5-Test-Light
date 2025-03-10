@@ -1,6 +1,7 @@
 const questions = [
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nあしたは [雨]ですか。',
+      question:'__の ことばは ひらがなで どう かきますか。\n\nあしたは 雨ですか。',
+      underlineWords: ['雨'], // 밑줄을 긋고 싶은 단어
       options: [
         { id: 1, text: 'ゆき' },
         { id: 2, text: 'はれ' },
@@ -10,7 +11,8 @@ const questions = [
       correctAnswer: 4,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nきょうしつで [書いて] ください。',
+      question:'きょうしつで 書いて ください。',
+      underlineWords: ['書いて'],
       options: [
         { id: 1, text: 'かいて' },
         { id: 2, text: 'きいて' },
@@ -20,7 +22,8 @@ const questions = [
       correctAnswer: 1,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nしゃしんは はこの [中]に あります。',
+      question:'しゃしんは はこの 中に あります。',
+      underlineWords: ['中'],
       options: [
         { id: 1, text: 'そば' },
         { id: 2, text: 'そと' },
@@ -30,7 +33,8 @@ const questions = [
       correctAnswer: 3,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nこの いすは [小さい]です。',
+      question:'この いすは 小さいです。',
+      underlineWords: ['小さい'],
       options: [
         { id: 1, text: 'ちいさい' },
         { id: 2, text: 'ちさい' },
@@ -40,7 +44,8 @@ const questions = [
       correctAnswer: 1,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nあしたは [火よう日]です。',
+      question:'あしたは 火よう日です。',
+      underlineWords: ['火よう日'],
       options: [
         { id: 1, text: 'どようび' },
         { id: 2, text: 'すいようび' },
@@ -50,7 +55,8 @@ const questions = [
       correctAnswer: 1,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nきれいな [空]ですね。',
+      question:'きれいな 空ですね。',
+      underlineWords: ['空'],
       options: [
         { id: 1, text: 'いえ' },
         { id: 2, text: 'うみ' },
@@ -60,7 +66,8 @@ const questions = [
       correctAnswer: 4,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nせいとは [百人] います。',
+      question:'せいとは 百人 います。',
+      underlineWords: ['百人'],
       options: [
         { id: 1, text: 'ひゃくにん' },
         { id: 2, text: 'びゃくにん' },
@@ -70,7 +77,8 @@ const questions = [
       correctAnswer: 1,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\n[魚]が たくさん いますよ。',
+      question:'魚が たくさん いますよ。',
+      underlineWords: ['魚'],
       options: [
         { id: 1, text: 'ねこ' },
         { id: 2, text: 'とり' },
@@ -80,7 +88,8 @@ const questions = [
       correctAnswer: 4,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nパンを [半分] ともだちに あげました。',
+      question:'パンを 半分 ともだちに あげました。',
+      underlineWords: ['半分'],
       options: [
         { id: 1, text: 'はんふん' },
         { id: 2, text: 'はんぶん' },
@@ -90,7 +99,8 @@ const questions = [
       correctAnswer: 2,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nぎんこうと スーパーの [間]に ほそい みちが あります。',
+      question:'ぎんこうと スーパーの 間に ほそい みちが あります。',
+      underlineWords: ['間'],
       options: [
         { id: 1, text: 'あいた' },
         { id: 2, text: 'となり' },
@@ -100,7 +110,8 @@ const questions = [
       correctAnswer: 1,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nたまごを [三つ] とって ください。',
+      question:'たまごを 三つ とって ください。',
+      underlineWords: ['三つ'],
       options: [
         { id: 1, text: 'いつつ' },
         { id: 2, text: 'みっつ' },
@@ -110,7 +121,8 @@ const questions = [
       correctAnswer: 2,
     },
     {
-      question:'[  ]の ことばは ひらがなで どう かきますか。\n\nきょうは [元気]が いいですね。',
+      question:'きょうは 元気が いいですね。',
+      underlineWords: ['元気'],
       options: [
         { id: 1, text: 'けんき' },
         { id: 2, text: 'げんき' },

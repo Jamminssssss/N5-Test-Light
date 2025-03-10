@@ -1,7 +1,7 @@
 const listeningQuestions = [
     {
       question: '1 ばん',
-      image: require('../../assets/audioimages/audioquestionimage1.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage1.png'), // 이미지 경로
       audio: 'n5q1.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: '①' },
@@ -13,7 +13,7 @@ const listeningQuestions = [
     },
     {
       question: '2 ばん',
-      image: require('../../assets/audioimages/audioquestionimage2.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage2.png'), // 이미지 경로
       audio: 'n5q2.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: '①' },
@@ -25,7 +25,7 @@ const listeningQuestions = [
     },
     {
       question: '3 ばん',
-      image: require('../../assets/audioimages/audioquestionimage3.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage3.png'), // 이미지 경로
       audio: 'n5q3.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: '①' },
@@ -37,7 +37,7 @@ const listeningQuestions = [
     },
     {
       question: '4 ばん',
-      image: require('../../assets/audioimages/audioquestionimage4.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage4.png'), // 이미지 경로
       audio: 'n5q4.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: '①' },
@@ -71,7 +71,7 @@ const listeningQuestions = [
     },
     {
       question: '7 ばん',
-      image: require('../../assets/audioimages/audioquestionimage5.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage5.png'), // 이미지 경로
       audio: 'n5q7.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: '①' },
@@ -83,7 +83,7 @@ const listeningQuestions = [
     },
     {
       question: '1 ばん',
-      image: require('../../assets/audioimages/audioquestionimage6.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage6.png'), // 이미지 경로
       audio: 'n5q8.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: '①' },
@@ -106,7 +106,7 @@ const listeningQuestions = [
     },
     {
       question: '3 ばん',
-      image: require('../../assets/audioimages/audioquestionimage7.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage7.png'), // 이미지 경로
       audio: 'n5q10.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: '①' },
@@ -118,7 +118,7 @@ const listeningQuestions = [
     },
     {
       question: '4 ばん',
-      image: require('../../assets/audioimages/audioquestionimage8.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage8.png'), // 이미지 경로
       audio: 'n5q11.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: '①' },
@@ -152,7 +152,7 @@ const listeningQuestions = [
     },
     {
       question: '1 ばん',
-      image: require('../../assets/audioimages/audioquestionimage9.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage9.png'), // 이미지 경로
       audio: 'n5q14.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: 'あまり休みません。' },
@@ -163,7 +163,7 @@ const listeningQuestions = [
     },
     {
       question: '2 ばん',
-      image: require('../../assets/audioimages/audioquestionimage10.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage10.png'), // 이미지 경로
       audio: 'n5q15.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: 'どんなチョコレートですか。' },
@@ -174,7 +174,7 @@ const listeningQuestions = [
     },
     {
       question: '3 ばん',
-      image: require('../../assets/audioimages/audioquestionimage11.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage11.png'), // 이미지 경로
       audio: 'n5q16.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: 'あ、乗のります。' },
@@ -185,7 +185,7 @@ const listeningQuestions = [
     },
     {
       question: '4 ばん',
-      image: require('../../assets/audioimages/audioquestionimage12.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage12.png'), // 이미지 경로
       audio: 'n5q17.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: '見ませんよ。' },
@@ -196,7 +196,7 @@ const listeningQuestions = [
     },
     {
       question: '5 ばん',
-      image: require('../../assets/audioimages/audioquestionimage13.png'), // 이미지 경로
+      image: require('../assets/audioimages/audioquestionimage13.png'), // 이미지 경로
       audio: 'n5q18.mp3', // Android raw 리소스 파일 이름 (확장자 제외)
       options: [
         { id: 1, text: 'コーヒーを持ってきますよ。' },
